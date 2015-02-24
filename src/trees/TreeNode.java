@@ -22,6 +22,10 @@ public class TreeNode {
 		this.parent = parent;
 	}
 
+	public int getData() {
+		return this.data;
+	}
+
 	public TreeNode getParent() {
 		return this.parent;
 	}
